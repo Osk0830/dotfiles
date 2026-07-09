@@ -1,0 +1,19 @@
+[user]
+    name = 大城成求
+    email = oshiro.sk.0830@gmail.com
+
+[init]
+    defaultBranch = main
+
+[pull]
+    rebase = false
+
+[core]
+    editor = code --wait
+    excludesfile = ~/.gitignore_global
+
+[fetch]
+    prune = true
+
+[push]
+    autoSetupRemote = true

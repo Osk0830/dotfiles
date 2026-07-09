@@ -1,0 +1,17 @@
+tap "homebrew/bundle"
+
+brew "git"
+brew "asdf"
+brew "gh"
+brew "docker"
+brew "docker-compose"
+brew "ripgrep"
+brew "fd"
+brew "jq"
+brew "wget"
+brew "tree"
+brew "mkdocs"
+brew "sqlite"
+
+cask "visual-studio-code"
+cask "docker"

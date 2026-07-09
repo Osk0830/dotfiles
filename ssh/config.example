@@ -1,0 +1,25 @@
+# ~/.ssh/config example
+#
+# Copy this file to:
+# ~/.ssh/config
+#
+# Do NOT commit real private paths, hostnames, or production server info
+# if they are sensitive.
+
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_ed25519
+  AddKeysToAgent yes
+  UseKeychain yes
+
+# Example for a client server.
+# Replace values locally only.
+#
+# Host client-staging
+#   HostName example.com
+#   User deploy
+#   Port 22
+#   IdentityFile ~/.ssh/id_ed25519_client
+#   AddKeysToAgent yes
+#   UseKeychain yes

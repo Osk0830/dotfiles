@@ -1,0 +1,212 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Dark+",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.7,
+  "editor.inlayHints.fontSize": 15,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 100,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "terminal.integrated.fontSize": 13,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 800,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.njk": "html",
+    "*.html": "html"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.astro": true,
+    "**/.git": true,
+    "**/coverage": true
+  },
+  "files.exclude": {
+    "**/.DS_Store": true
+  },
+  "git.confirmSync": false,
+  "git.suggestSmartCommit": false,
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescript": "typescriptreact"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "php.validate.executablePath": "/Users/hsg/.phpbrew/php/php-8.1.31/bin/php",
+  "intelephense.stubs": [
+    "apache",
+    "bcmath",
+    "bz2",
+    "calendar",
+    "com_dotnet",
+    "Core",
+    "ctype",
+    "curl",
+    "date",
+    "dba",
+    "dom",
+    "enchant",
+    "exif",
+    "FFI",
+    "fileinfo",
+    "filter",
+    "fpm",
+    "ftp",
+    "gd",
+    "gettext",
+    "gmp",
+    "hash",
+    "iconv",
+    "imap",
+    "intl",
+    "json",
+    "ldap",
+    "libxml",
+    "mbstring",
+    "meta",
+    "mysqli",
+    "oci8",
+    "odbc",
+    "openssl",
+    "pcntl",
+    "pcre",
+    "PDO",
+    "pgsql",
+    "Phar",
+    "posix",
+    "pspell",
+    "random",
+    "readline",
+    "Reflection",
+    "session",
+    "shmop",
+    "SimpleXML",
+    "snmp",
+    "soap",
+    "sockets",
+    "sodium",
+    "SPL",
+    "sqlite3",
+    "standard",
+    "superglobals",
+    "sysvmsg",
+    "sysvsem",
+    "sysvshm",
+    "tidy",
+    "tokenizer",
+    "xml",
+    "xmlreader",
+    "xmlrpc",
+    "xmlwriter",
+    "xsl",
+    "Zend OPcache",
+    "zip",
+    "zlib",
+    "wordpress"
+  ],
+  "errorLens.codeLensEnabled": true,
+  "errorLens.gutterIconsEnabled": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "print.folder.fileNames": true,
+  "print.folder.include": [],
+  "print.folder.exclude": [
+    "{bin,obj,out}",
+    "node_modules",
+    "data",
+    "**/*.{bin,exe,dll,hex,pdb,pdf,pfx,png,jpg,gif,bmp,suo,design}"
+  ],
+  "print.folder.maxLines": 1200,
+  "print.folder.maxFiles": 30,
+  "print.folder.includeFileList": false,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.chat.localeOverride": "ja",
+  "github.copilot.chat.welcomeMessage": "never",
+  "editor.inlineSuggest.showToolbar": "onHover",
+  "github.copilot.chat.organizationInstructions.enabled": true,
+  "inlineChat.defaultModel": "GPT-5.2-Codex (copilot)",
+  "chat.editor.wordWrap": "on",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "chat.tools.terminal.autoApprove": {
+    "/^cd /Users/hsg/Library/CloudStorage/Dropbox/Works/andz && git add -A && git commit -m \"feat: 予約フォームにフェア情報表示を追加\n\n- getFairReserveData\\(\\)にimage_url、sp_image_urlを追加\n- 予約フォームの上部にフェア情報セクションを追加（タイトル、開催日時、概要、画像）\n- reserve/form\\.phpで fair_id からデータを取得、テンプレートに渡す\"$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^php -r 'require \"/Users/hsg/Library/CloudStorage/Dropbox/Works/andz/app/inc/init\\.php\"; \\$t=new Model_DbTable_Inspiration\\(\\); \\$rows=\\$t->getList\\(\\[\"displayed\"=>DISPLAY,\"detail_target\"=>Model_DbTable_Inspiration::DETAIL_TARGET_REPORT\\]\\); \\$id=\\$rows \\? \\$rows\\[0\\]\\[\"id\"\\] : null; var_export\\(\\$t->getDetail\\(\\$id, \"pc\", \\[\"displayed\"=>DISPLAY,\"detail_target\"=>Model_DbTable_Inspiration::DETAIL_TARGET_REPORT\\]\\)\\);'$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^php -r 'echo \"hello\\\\n\";'$/": {
+      "approve": true,
+      "matchCommandLine": true
+    },
+    "/^php -r 'require \"/Users/hsg/Library/CloudStorage/Dropbox/Works/andz/app/inc/init\\.php\"; echo function_exists\\(\"getInspirationImageSize\"\\) \\? \"yes\\\\n\" : \"no\\\\n\";'$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
