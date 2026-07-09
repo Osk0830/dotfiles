@@ -41,6 +41,7 @@ ms-toolsai.jupyter-keymap
 ms-toolsai.jupyter-renderers
 ms-toolsai.vscode-jupyter-cell-tags
 ms-toolsai.vscode-jupyter-slideshow
+ms-vscode.makefile-tools
 naumovs.color-highlight
 njpwerner.autodocstring
 oderwat.indent-rainbow

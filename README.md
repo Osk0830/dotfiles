@@ -2,7 +2,7 @@
 
 > Mac開発環境を再現するための設定ファイル・手順書リポジトリ
 
-このリポジトリは、`.zshrc` や VS Code 設定を置くだけではなく、  
+このリポジトリは、`.zshrc` や VS Code 設定を置くだけではなく、
 新しいMacや復旧時に **30〜60分で開発環境を戻す** ための手順書として使います。
 
 ---
@@ -97,7 +97,7 @@ dotfiles/
 7. asdf
 8. Node / Python
 9. VS Code
-10. Docker
+10. Docker //Docker Desktop は Homebrew Cask 管理せず、公式インストーラまたは既存アプリを使用する。
 11. 動作確認
 ```
 

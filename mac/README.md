@@ -29,7 +29,7 @@ Mac初期設定を手順化しておくと、以下が楽になります。
 7. asdf
 8. Node / Python
 9. VS Code
-10. Docker
+10. Docker //Docker Desktop は Homebrew Cask 管理せず、公式インストーラまたは既存アプリを使用する。
 11. MkDocs
 12. 動作確認
 ```
