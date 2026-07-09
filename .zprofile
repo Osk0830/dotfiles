@@ -1,10 +1,13 @@
 # ==================================================
 # ~/.zprofile
 # ==================================================
-# ログインシェル向け初期化
-# - Homebrew の環境変数を設定
+# Login shell initialization.
+#
+# Keep this file minimal.
+# Put interactive shell settings in ~/.zshrc.
 # ==================================================
 
+# Homebrew (Apple Silicon)
 if [[ -x /opt/homebrew/bin/brew ]]; then
-	eval "$(/opt/homebrew/bin/brew shellenv)"
+  eval "$(/opt/homebrew/bin/brew shellenv)"
 fi

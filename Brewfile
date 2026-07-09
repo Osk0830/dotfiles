@@ -1,17 +1,23 @@
 tap "homebrew/bundle"
 
+# Core
 brew "git"
-brew "asdf"
 brew "gh"
-brew "docker"
-brew "docker-compose"
+brew "asdf"
 brew "ripgrep"
 brew "fd"
 brew "jq"
 brew "wget"
 brew "tree"
-brew "mkdocs"
 brew "sqlite"
 
+# Docs
+brew "mkdocs"
+
+# Docker CLI / Compose
+brew "docker"
+brew "docker-compose"
+
+# Apps
 cask "visual-studio-code"
 cask "docker"
