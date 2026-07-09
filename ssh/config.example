@@ -1,10 +1,10 @@
-# ~/.ssh/config example
+# ~/.ssh/config のテンプレート
 #
-# Copy this file to:
-# ~/.ssh/config
+# ローカルにコピーして使用:
+# cp ssh/config.example ~/.ssh/config
 #
-# Do NOT commit real private paths, hostnames, or production server info
-# if they are sensitive.
+# 注意:
+# 実際のホスト名、ユーザー名、秘密鍵パスはこのファイルにコミットしないこと
 
 Host github.com
   HostName github.com
@@ -13,13 +13,11 @@ Host github.com
   AddKeysToAgent yes
   UseKeychain yes
 
-# Example for a client server.
-# Replace values locally only.
-#
-# Host client-staging
+# 任意の接続先テンプレート
+# Host my-server
 #   HostName example.com
 #   User deploy
 #   Port 22
-#   IdentityFile ~/.ssh/id_ed25519_client
+#   IdentityFile ~/.ssh/id_ed25519_my_server
 #   AddKeysToAgent yes
 #   UseKeychain yes
