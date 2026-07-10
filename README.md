@@ -55,6 +55,7 @@ dotfiles/
 │   ├── homebrew.md
 │   ├── asdf.md
 │   ├── defaults.md
+│   ├── docker.md
 │   ├── finder.md
 │   ├── dock.md
 │   └── keyboard.md
@@ -97,7 +98,7 @@ dotfiles/
 7. asdf
 8. Node / Python
 9. VS Code
-10. Docker //Docker Desktop は Homebrew Cask 管理せず、公式インストーラまたは既存アプリを使用する。
+10. Docker Desktop（Homebrewでは管理せず手動インストール）
 11. 動作確認
 ```
 
@@ -218,3 +219,13 @@ push
 ```
 
 数か月後・数年後の自分が、同じ環境をすぐ再現できることを目指します。
+
+### Docker Desktop
+
+Docker DesktopはHomebrewでは管理していません。
+
+インストール・復旧方法は
+
+- mac/docker.md
+
+を参照してください。
