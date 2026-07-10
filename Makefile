@@ -4,6 +4,19 @@ install:
 doctor:
 	./scripts/doctor.sh
 
+doctor-strict:
+	./scripts/doctor.sh --strict
+
+doctor-all:
+	./scripts/doctor.sh --strict --network
+
+bootstrap:
+	./install.sh
+
+update:
+	brew bundle
+	asdf install
+
 vscode-install:
 	./scripts/install-vscode-extensions.sh
 

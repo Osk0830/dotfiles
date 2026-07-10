@@ -44,35 +44,27 @@ if [ ! -d "$DOCTOR_DIR" ]; then
   exit 1
 fi
 
-# shellcheck source=scripts/doctor.d/common.sh
-source "$DOCTOR_DIR/common.sh"
+# shellcheck source=scripts/doctor.d/000_common.sh
+source "$DOCTOR_DIR/000_common.sh"
 
-modules=(
-  repository
-  shell
-  commands
-  git
-  asdf
-  github
-  ssh
-  docker
-  vscode
-  homebrew
-  documentation
-  security
-)
+for module_file in "$DOCTOR_DIR"/*.sh; do
+  [ -f "$module_file" ] || continue
 
-for module in "${modules[@]}"; do
-  module_file="$DOCTOR_DIR/$module.sh"
+  # 000_common.sh は最初に読み込んでいるのでスキップ
+  [ "$(basename "$module_file")" = "000_common.sh" ] && continue
 
-  if [ ! -f "$module_file" ]; then
-    fail "doctor module missing: $module_file"
-    continue
-  fi
-
-  # shellcheck source=/dev/null
   source "$module_file"
-  "check_$module"
+
+  module_name="$(basename "$module_file" .sh)"
+
+  # 先頭の数字とアンダースコアを除去
+  module_name="${module_name#*_}"
+
+  if declare -f "check_${module_name}" >/dev/null; then
+    "check_${module_name}"
+  else
+    fail "check_${module_name}() not found"
+  fi
 done
 
 print_summary
