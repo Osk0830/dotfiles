@@ -61,5 +61,6 @@ wallabyjs.quokka-vscode
 wholroyd.jinja
 wmaurer.change-case
 wordpresstoolbox.wordpress-toolbox
+xdebug.php-debug
 yoavbls.pretty-ts-errors
 yogensia.searchwpdocs

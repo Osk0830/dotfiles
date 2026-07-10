@@ -16,7 +16,7 @@ check_security() {
     "$DOTFILES_DIR" \
     --glob '!docs/security.md' \
     --glob '!scripts/doctor.sh' \
-    --glob '!scripts/doctor.d/security.sh' \
+    --glob '!scripts/doctor.d/120_security.sh' \
     >"$secret_scan_file" 2>/dev/null
   then
     warn "Potential secret-like strings found"
