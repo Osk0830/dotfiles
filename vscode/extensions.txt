@@ -45,6 +45,7 @@ ms-vscode.makefile-tools
 naumovs.color-highlight
 njpwerner.autodocstring
 oderwat.indent-rainbow
+openai.chatgpt
 orta.vscode-jest
 pdconsec.vscode-print
 ritwickdey.liveserver
